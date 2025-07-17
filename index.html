@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <link rel="stylesheet" href="src/input.css" />
+  <link rel="stylesheet" href="src/output.css" />
+  <body>
+    <div class=""></div>
+
+    <section>
+      <div class="max-w-[1240px] m-auto">
+        <div class="flex py-7.5">
+          <div class="m-auto">
+            <button
+              id="Drack"
+              class="py-4 px-5 bg-black/70 text-white font-bold rounded-2xl text-center"
+            >
+              Drack Mode
+            </button>
+            <button
+              id="light"
+              onclick="Light()"
+              class="py-4 px-5 bg-black/70 text-white font-bold rounded-2xl text-center"
+            >
+              Light Mode
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Flag part start  -->
+    <section class="py-[90px]">
+      <div class="max-w-[1240px] m-auto relative">
+        <h1>Bangladesh Flag</h1>
+        <div
+          id="flagGreen"
+          class="w-[500px] m-auto bg-green-700 h-[300px] relative hidden"
+        >
+          <div
+            id="flagRed"
+            class="w-[150px] m-auto bg-red-700 h-[150px] rounded-full absolute top-[50%] left-[50%] translate-[-50%] hidden"
+          ></div>
+        </div>
+        <button
+          id="Bdflag"
+          class="py-4 px-5 bg-black/70 text-white font-bold rounded-2xl mt-4 absolute left-[50%] translate-x-[-50%]"
+        >
+          Bangladesh Flag 
+        </button>
+        
+      </div>
+    </section>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
