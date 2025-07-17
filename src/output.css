@@ -14,12 +14,9 @@
     --spacing: 0.25rem;
     --text-3xl: 1.875rem;
     --text-3xl--line-height: calc(2.25 / 1.875);
-    --text-4xl: 2.25rem;
-    --text-4xl--line-height: calc(2.5 / 2.25);
     --text-6xl: 3.75rem;
     --text-6xl--line-height: 1;
     --font-weight-bold: 700;
-    --font-weight-extrabold: 800;
     --radius-2xl: 1rem;
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
@@ -180,35 +177,11 @@
   .top-\[50\%\] {
     top: 50%;
   }
-  .top-\[90\%\] {
-    top: 90%;
+  .left-\[47\%\] {
+    left: 47%;
   }
-  .right-\[4\%\] {
-    right: 4%;
-  }
-  .right-\[40\%\] {
-    right: 40%;
-  }
-  .right-\[45\%\] {
-    right: 45%;
-  }
-  .right-\[50\%\] {
-    right: 50%;
-  }
-  .right-\[50\] {
-    right: 50;
-  }
-  .left-\[0\%\] {
-    left: 0%;
-  }
-  .left-\[5\%\] {
-    left: 5%;
-  }
-  .left-\[40\%\] {
-    left: 40%;
-  }
-  .left-\[45\%\] {
-    left: 45%;
+  .left-\[48\%\] {
+    left: 48%;
   }
   .left-\[50\%\] {
     left: 50%;
@@ -228,9 +201,6 @@
   .hidden {
     display: none;
   }
-  .table {
-    display: table;
-  }
   .h-\[150px\] {
     height: 150px;
   }
@@ -246,23 +216,13 @@
   .max-w-\[1240px\] {
     max-width: 1240px;
   }
-  .border-collapse {
-    border-collapse: collapse;
-  }
   .translate-\[-50\%\] {
     --tw-translate-x: -50%;
     --tw-translate-y: -50%;
     translate: var(--tw-translate-x) var(--tw-translate-y);
   }
-  .translate-x-\[-50\%\] {
-    --tw-translate-x: -50%;
-    translate: var(--tw-translate-x) var(--tw-translate-y);
-  }
   .cursor-pointer {
     cursor: pointer;
-  }
-  .resize {
-    resize: both;
   }
   .justify-around {
     justify-content: space-around;
@@ -279,10 +239,6 @@
   .rounded-full {
     border-radius: calc(infinity * 1px);
   }
-  .border {
-    border-style: var(--tw-border-style);
-    border-width: 1px;
-  }
   .bg-black {
     background-color: var(--color-black);
   }
@@ -298,17 +254,11 @@
   .py-4 {
     padding-block: calc(var(--spacing) * 4);
   }
-  .py-7 {
-    padding-block: calc(var(--spacing) * 7);
-  }
   .py-7\.5 {
     padding-block: calc(var(--spacing) * 7.5);
   }
   .py-\[90px\] {
     padding-block: 90px;
-  }
-  .pt-\[90px\] {
-    padding-top: 90px;
   }
   .text-center {
     text-align: center;
@@ -331,13 +281,6 @@
   .text-white {
     color: var(--color-white);
   }
-  .underline {
-    text-decoration-line: underline;
-  }
-  .outline {
-    outline-style: var(--tw-outline-style);
-    outline-width: 1px;
-  }
 }
 @property --tw-translate-x {
   syntax: "*";
@@ -354,19 +297,9 @@
   inherits: false;
   initial-value: 0;
 }
-@property --tw-border-style {
-  syntax: "*";
-  inherits: false;
-  initial-value: solid;
-}
 @property --tw-font-weight {
   syntax: "*";
   inherits: false;
-}
-@property --tw-outline-style {
-  syntax: "*";
-  inherits: false;
-  initial-value: solid;
 }
 @layer properties {
   @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {
@@ -374,9 +307,7 @@
       --tw-translate-x: 0;
       --tw-translate-y: 0;
       --tw-translate-z: 0;
-      --tw-border-style: solid;
       --tw-font-weight: initial;
-      --tw-outline-style: solid;
     }
   }
 }
