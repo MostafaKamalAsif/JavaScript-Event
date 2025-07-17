@@ -62,7 +62,7 @@ Bdflag.addEventListener("click", ()=>{
     Bdflag.style.display="none"
     Clear.style.display="block"
     Htext.innerHTML="“Our Flag, Our Soul” "
-    Htext.style.paddingLeft="420px"
+    Htext.style.paddingLeft="450px"
     flagGreen.style.marginTop="50px"
     
 })
