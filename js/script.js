@@ -61,7 +61,7 @@ Bdflag.addEventListener("click", ()=>{
     flagRed.style.display="block"
     Bdflag.style.display="none"
     Clear.style.display="block"
-    Htext.innerHTML="This is Bangladesh Flag:"
+    Htext.innerHTML="“Our Flag, Our Soul” "
     Htext.style.paddingLeft="420px"
     flagGreen.style.marginTop="50px"
     
