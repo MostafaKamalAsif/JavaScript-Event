@@ -87,7 +87,7 @@ plus.addEventListener("click", ()=>{
         
     }
     else{
-        alert("The number is not going to increase more.")
+        alert("The number will not increase any further.")
     }
 })
 
@@ -99,7 +99,7 @@ minus.addEventListener("click", ()=>{
         
     }
     else{
-        alert("The number is not going to decrease more.")
+        alert("The number will not decrease any further.")
     }
 })
 // count down part End 
